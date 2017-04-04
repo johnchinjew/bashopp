@@ -1,8 +1,8 @@
 /* START FILE
 ================================================================================================= */
 
-#ifndef LANG_H
-#define LANG_H
+#ifndef LANG_CPP
+#define LANG_CPP
 
 
 
@@ -15,7 +15,7 @@
 #include <regex>
 #include <algorithm>
 
-#include "utils.h"
+#include "utils.cpp"
 
 using std::istringstream;
 using std::string;

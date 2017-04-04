@@ -1,8 +1,8 @@
 /* START FILE
 ================================================================================================= */
 
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef UTILS_CPP
+#define UTILS_CPP
 
 
 
@@ -70,7 +70,7 @@ vector<string> load_lines(string path) {
 // get project directories
 string root_dir() { return "/Users/John/Desktop/zenbot/"; }
 string assets_dir() { return root_dir() + "assets/"; }
-string headers_dir() { return root_dir() + "headers/"; }
+string headers_dir() { return root_dir() + "modules/"; }
 
 
 

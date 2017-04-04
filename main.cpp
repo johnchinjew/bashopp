@@ -5,9 +5,9 @@
 #include <string>
 #include <vector>
 
-#include "headers/utils.h"
-#include "headers/poem.h"
-#include "headers/lang.h"
+#include "modules/utils.cpp"
+#include "modules/poem.cpp"
+#include "modules/lang.cpp"
 
 using std::cin;
 using std::cout;
@@ -21,7 +21,6 @@ using std::vector;
 ================================================================================================= */
 
 string name();
-void say();
 
 
 
